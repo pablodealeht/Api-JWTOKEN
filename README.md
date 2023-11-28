@@ -3,6 +3,7 @@ Api de Testing con login incluido mas consultas de promedio, registro, personal 
 
 
 Estructura de Carpetas
+
 •	Application: Contiene los casos de uso (Use Cases) y lógica de aplicación.
 •	Domain: Define las entidades y reglas de negocio.
 •	Infrastructure: Implementa detalles externos, como bases de datos y servicios externos.
@@ -12,6 +13,7 @@ Estructura de Tablas
 •	Usuarios: Almacena información de usuarios y tokens.
 •	Registros: Almacena los ingresos y egresos del personal.
 Servicios
+
 Services 1 – Autenticación
 
 Método: POST
@@ -22,6 +24,7 @@ Parámetros:
 
 
 Services 2 - Registro de Ingresos y Egresos
+
 Método: POST
 Descripción: Registra ingresos y egresos del personal.
 Parámetros:
@@ -33,6 +36,7 @@ Parámetros:
 
 
 Services 3 - Búsqueda de Registros
+
 Método: GET
 Descripción: Lista la cantidad de ingresos y egresos según filtros.
 Parámetros:
@@ -43,6 +47,7 @@ Parámetros:
 
 
 Services 4 - Promedio de Ingresos y Egresos 
+
 Método: GET
 Descripción: Devuelve el promedio de hombres y mujeres que ingresan y egresan por mes, por sucursal.
 Parámetros:
