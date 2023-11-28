@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+rMekhEBBeOLTOG1cgCNXZ5J8baZS8zGLKXGgAOem7CW58hJYYhvPKSvV1aLSGDpw9SYPVtebBcfkat6BbPXog==",
+  "dgSpecHash": "qY2bWzoNFrAUXf8EbdO6j5bfwJ2tsrl9YXRdhIfYmmcAbGWJKIJFDlxnIFF32uWjvkdv/fTBG/xpffO6p2/UkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable\\src\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pablo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

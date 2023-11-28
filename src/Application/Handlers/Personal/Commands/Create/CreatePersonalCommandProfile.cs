@@ -1,5 +1,4 @@
-﻿using Application.Handlers.Terceros;
-using AutoMapper;
+﻿using AutoMapper;
 using Domain;
 
 namespace Application.Handlers.Personal.Commands.Create;

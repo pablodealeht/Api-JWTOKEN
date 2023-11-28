@@ -4096,11 +4096,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable\\src\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable\\src\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable\\src\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4121,8 +4121,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable\\src\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable\\src\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

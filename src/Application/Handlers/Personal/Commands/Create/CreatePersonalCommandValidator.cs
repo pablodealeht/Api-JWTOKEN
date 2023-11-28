@@ -1,10 +1,4 @@
-﻿using Application.Handlers.Terceros.Command.Create;
-using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluentValidation;
 
 namespace Application.Handlers.Personal.Commands.Create
 {

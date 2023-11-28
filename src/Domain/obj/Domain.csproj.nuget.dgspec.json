@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable\\src\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable\\src\\Domain\\Domain.csproj": {
+    "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable\\src\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable\\src\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

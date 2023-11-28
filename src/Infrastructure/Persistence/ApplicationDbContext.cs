@@ -23,12 +23,9 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext
 
         base.OnModelCreating(modelBuilder);
 
-        SiniestrosDataSeeder.Seed(modelBuilder);
         UsuariosDataSeeder.Seed(modelBuilder);
     }
 
-    public DbSet<Siniestro> Siniestros => Set<Siniestro>();
-    public DbSet<Tercero> Terceros => Set<Tercero>();
     public DbSet<Usuario> Usuarios => Set<Usuario>();
     public DbSet<RegPersonal> Personales => Set<RegPersonal>();
 } 

@@ -1,16 +1,9 @@
-﻿using Application.Handlers.Siniestros.Queries.GetAll;
-using Application.Handlers.Siniestros.Queries;
+﻿
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Application.Services;
 using AutoMapper;
 using Domain;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Application.Handlers.Personal.Queries;
 

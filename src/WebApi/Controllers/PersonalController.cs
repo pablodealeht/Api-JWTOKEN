@@ -1,11 +1,8 @@
-﻿using Application.Handlers.Siniestros.Commands.Create;
-using Application.Handlers.Terceros.Command.Create;
-using Application.Handlers.Terceros;
+﻿
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Application.Handlers.Personal;
-using Application.Handlers.Siniestros.Queries.GetAll;
 using Application.Handlers.Personal.Commands.Create;
 using Application.Handlers.Personal.Queries;
 using Application.Handlers.Personal.Average;
