@@ -1,0 +1,6 @@
+{
+  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\src\\Application",
+  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\src\\Domain",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\src\\Infrastructure",
+  "WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\src\\WebApi"
+}
