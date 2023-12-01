@@ -1,6 +1,6 @@
 {
-  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\Application",
-  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\Domain",
-  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\Infrastructure",
-  "WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\WebApi"
+  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\src\\Application",
+  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\src\\Domain",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\src\\Infrastructure",
+  "WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\src\\WebApi"
 }

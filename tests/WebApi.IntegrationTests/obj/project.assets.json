@@ -9885,11 +9885,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\tests\\WebApi.IntegrationTests\\WebApi.IntegrationTests.csproj",
+      "projectUniqueName": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\tests\\WebApi.IntegrationTests\\WebApi.IntegrationTests.csproj",
       "projectName": "WebApi.IntegrationTests",
-      "projectPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\tests\\WebApi.IntegrationTests\\WebApi.IntegrationTests.csproj",
+      "projectPath": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\tests\\WebApi.IntegrationTests\\WebApi.IntegrationTests.csproj",
       "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\tests\\WebApi.IntegrationTests\\obj\\",
+      "outputPath": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\tests\\WebApi.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9910,8 +9910,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\WebApi\\WebApi.csproj": {
-              "projectPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\WebApi\\WebApi.csproj"
+            "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\src\\WebApi\\WebApi.csproj": {
+              "projectPath": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\src\\WebApi\\WebApi.csproj"
             }
           }
         }
@@ -9971,7 +9971,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

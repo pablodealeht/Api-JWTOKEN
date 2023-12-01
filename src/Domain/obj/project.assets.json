@@ -420,11 +420,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\src\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\src\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\src\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -486,7 +486,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

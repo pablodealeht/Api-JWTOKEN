@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/8yY6yg2ftquvMbhUDMytaNLp3PupHf93cccXDpX6nkIcVBRuVkjb0DBJym1jSUmFRjz8F4FO5yGwEwN+tmfHQ==",
+  "dgSpecHash": "nlHx6XKFU03nFebuTjjN+MWPA76GYgngysvEZQaz3jgX81m7+eTo6cuR7RkzFw1K+pbhjzd3G1TJxYL0A5BhnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\src\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\src\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pablo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -1,18 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\WebApi\WebApi.csproj", "{1BB95DD4-7B57-4696-A124-1584178865E2}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "src\WebApi\WebApi.csproj", "{1BB95DD4-7B57-4696-A124-1584178865E2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CC696919-7E76-4B0F-AA0D-CBA50A3CFA5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{208E9E06-E2EC-4144-BA73-023D1FAA8A72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\Application\Application.csproj", "{208E9E06-E2EC-4144-BA73-023D1FAA8A72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{AFA673A8-D25E-4080-9FEC-8E99016D0704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\Domain\Domain.csproj", "{AFA673A8-D25E-4080-9FEC-8E99016D0704}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{2EFA8C40-81A7-43B8-8C87-20BC08265137}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{2EFA8C40-81A7-43B8-8C87-20BC08265137}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{350D67AF-78D5-434D-BFF9-A1CB0A8A6325}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.IntegrationTests", "tests\WebApi.IntegrationTests\WebApi.IntegrationTests.csproj", "{79C7153C-D312-45CD-B361-3E90E94C0884}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.IntegrationTests", "tests\WebApi.IntegrationTests\WebApi.IntegrationTests.csproj", "{79C7153C-D312-45CD-B361-3E90E94C0884}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,11 +44,17 @@ Global
 		{79C7153C-D312-45CD-B361-3E90E94C0884}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79C7153C-D312-45CD-B361-3E90E94C0884}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1BB95DD4-7B57-4696-A124-1584178865E2} = {CC696919-7E76-4B0F-AA0D-CBA50A3CFA5A}
 		{208E9E06-E2EC-4144-BA73-023D1FAA8A72} = {CC696919-7E76-4B0F-AA0D-CBA50A3CFA5A}
 		{AFA673A8-D25E-4080-9FEC-8E99016D0704} = {CC696919-7E76-4B0F-AA0D-CBA50A3CFA5A}
 		{2EFA8C40-81A7-43B8-8C87-20BC08265137} = {CC696919-7E76-4B0F-AA0D-CBA50A3CFA5A}
 		{79C7153C-D312-45CD-B361-3E90E94C0884} = {350D67AF-78D5-434D-BFF9-A1CB0A8A6325}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAD887BB-FE41-4566-9946-11E5DA57E443}
 	EndGlobalSection
 EndGlobal

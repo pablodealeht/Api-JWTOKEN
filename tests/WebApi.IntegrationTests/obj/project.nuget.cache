@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jnOz+vkM9xsh6XkmfVVXsG5c24IU/CeMUFF0vsgQziE+/sodMTv6YztDBd+hu7an3Yhx6/U5qVj8PPFP4L5XHA==",
+  "dgSpecHash": "ip7zDfaPAjGrXyd4dApOuG6bppjwmeh7lOHFwW+P/NshRtAgrn6zJA7i0H20PGlUd8MyL/fgCI/RQtZZxeJFlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pablo\\Desktop\\Api Test Login\\Entregable test\\ApiLogin\\tests\\WebApi.IntegrationTests\\WebApi.IntegrationTests.csproj",
+  "projectFilePath": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\tests\\WebApi.IntegrationTests\\WebApi.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pablo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
