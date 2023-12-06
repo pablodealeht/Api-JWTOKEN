@@ -1871,3 +1871,4 @@ C:\Users\Pablo\Desktop\Api JWTOKEN\tests\WebApi.IntegrationTests\obj\Debug\net7.
 C:\Users\Pablo\Desktop\Api JWTOKEN\tests\WebApi.IntegrationTests\obj\Debug\net7.0\WebApi.IntegrationTests.pdb
 C:\Users\Pablo\Desktop\Api JWTOKEN\tests\WebApi.IntegrationTests\obj\Debug\net7.0\WebApi.IntegrationTests.genruntimeconfig.cache
 C:\Users\Pablo\Desktop\Api JWTOKEN\tests\WebApi.IntegrationTests\obj\Debug\net7.0\ref\WebApi.IntegrationTests.dll
+C:\Users\Pablo\Desktop\Api JWTOKEN\tests\WebApi.IntegrationTests\obj\Debug\net7.0\WebApi.IntegrationTests.sourcelink.json

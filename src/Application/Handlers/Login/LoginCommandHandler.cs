@@ -1,54 +1,60 @@
-﻿using Application.Services;
-using AutoMapper;
+﻿using MediatR;
 using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using Application.Services;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using AutoMapper;
 
 namespace Application.Handlers.Login;
-public class LoginCommandHandler
+
+public class LoginCommandHandler : IRequestHandler<LoginCommand, LoginResult>
 {
     private readonly IApplicationDbContext _context;
+    private readonly IConfiguration _config;
     private readonly ILogger<LoginCommandHandler> _logger;
     private readonly IMapper _mapper;
-    private readonly string secretKey;
-
-    public LoginCommandHandler(IApplicationDbContext context,
-        ILogger<LoginCommandHandler> logger,
-        IMapper mapper,
-        IConfiguration config)
+    public LoginCommandHandler(IApplicationDbContext context, IConfiguration config,IMapper mapper,
+        ILogger<LoginCommandHandler> logger)
     {
-        secretKey = config.GetSection("settings").GetSection("KeySecret").ToString();
         _context = context;
+        _config = config;
         _logger = logger;
         _mapper = mapper;
+
     }
 
-    //public async Task<Unit> Handle(LoginCommand request, CancellationToken cancellationToken)
-    //{
-    //    if (request.User == "a@a.com" && request.Password == "123")
-    //    {
-    //        var keyBytes = Encoding.ASCII.GetBytes(secretKey);
-    //        var claims = new ClaimsIdentity();
+    public async Task<LoginResult> Handle(LoginCommand request, CancellationToken cancellationToken)
+    {
+        var usuarioValidado = await _context.Usuarios
+            .FirstOrDefaultAsync(x => request.User == x.User, cancellationToken);
 
-    //        claims.AddClaim(new Claim(ClaimTypes.NameIdentifier, request.User));
-    //        var tokenDescriptor = new SecurityTokenDescriptor
-    //        {
-    //            Subject = claims,
-    //            Expires = DateTime.UtcNow.AddMinutes(5),
-    //            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(keyBytes), SecurityAlgorithms.HmacSha256Signature),
-    //        };
-    //        var tokenHandler = new JwtSecurityTokenHandler();
-    //        var tokenConfig = tokenHandler.CreateToken(tokenDescriptor);
-    //        string tokenCreado = tokenHandler.WriteToken(tokenConfig);
+        if (usuarioValidado != null)
+        {
+            var keyBytes = Encoding.ASCII.GetBytes(_config.GetSection("settings").GetSection("KeySecret").ToString());
+            var claims = new ClaimsIdentity();
 
+        claims.AddClaim(new Claim(ClaimTypes.NameIdentifier, request.User));
+        var tokenDescriptor = new SecurityTokenDescriptor
+        {
+            Subject = claims,
+            Expires = DateTime.UtcNow.AddMinutes(5),
+            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(keyBytes), SecurityAlgorithms.HmacSha256Signature),
+        };
+        var tokenHandler = new JwtSecurityTokenHandler();
+        var tokenConfig = tokenHandler.CreateToken(tokenDescriptor);
+        string tokenCreado = tokenHandler.WriteToken(tokenConfig);
 
-    //        return Unit.Value;
-
-    //        //    return StatusCodes(StatusCodes.Status200OK, new { token = tokenCreado });
-    //        //}
-    //        //else
-    //        //{
-    //        //    return StatusCode(StatusCodes.Status401Unauthorized, new { token = "" });
-    //        //}
-    //    }
+        return new LoginResult { Token = tokenCreado };
+        }
+        _logger.LogError("Usuario no validado");
+        throw new InvalidOperationException("Usuario no validado");
     }
-//}
+}
+public class LoginResult
+{
+    public string Token { get; set; }
+}
