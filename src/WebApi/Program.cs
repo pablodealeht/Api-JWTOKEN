@@ -11,6 +11,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddJsonFile("appsettings.json");
 var secretKey = builder.Configuration.GetSection("settings").GetSection("secretKey").ToString();
 var keyBytes = Encoding.UTF8.GetBytes(secretKey);
+builder.Services.AddCors(o =>
+    o.AddPolicy("MyPolicy", policyBuilder => { policyBuilder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader(); }));
+//builder.Services.AddCors(o => o.AddPolicy(name: "FrontendAngular",
+//    policy =>
+//    {
+//        policy.WithOrigins("https://http://localhost:4200/").AllowAnyMethod().AllowAnyHeader();
+//    }
+
+//    ));
+
 //login
 builder.Services.AddAuthentication(config =>
 {
@@ -67,6 +77,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructure(builder.Configuration);
 
+
 // Configure el pipeline de solicitudes
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddAuthorization();
@@ -83,6 +94,7 @@ app.UseSwaggerUI(c =>
 
 app.UseSwagger();
 app.UseSwaggerUI();
+app.UseCors("MyPolicy");
 app.UseAuthentication();
 app.UseHttpsRedirection();
 

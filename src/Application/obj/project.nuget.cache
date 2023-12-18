@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8AAhpulVjHZwcX3Vm8hqEGWZJmW6AMp7r03gUm42FuBVXstQjNvpx+5nOwuIDCky5d6fIhgKe2eMsNg8JMXWLA==",
+  "dgSpecHash": "D4+k3ByC5LOM2fKI8i+kSuxO88fFMtxEhjJEjPndXldLsR2hvI6zu84lhPx8jj+VrrVM3sFdzHBjzKym6ZfKFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -13,14 +13,20 @@
     "C:\\Users\\Pablo\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.0\\microsoft.aspnetcore.authentication.jwtbearer.7.0.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.9\\microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.9\\microsoft.entityframeworkcore.analyzers.7.0.9.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.2.0\\microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
@@ -31,7 +37,10 @@
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.15.1\\microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.15.1\\microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
-    "C:\\Users\\Pablo\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512"
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

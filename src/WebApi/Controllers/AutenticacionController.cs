@@ -8,6 +8,8 @@ using Application.Handlers.Login;
 using Application.Handlers.Personal.Commands.Create;
 using Application.Handlers.Personal;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 
 namespace WebApi.Controllers;
 
@@ -58,6 +60,7 @@ public class AutenticacionController : Controller
 
 
     [HttpPost]
+    [AllowAnonymous]
     public async Task<IActionResult> Login([FromBody] LoginCommand request)
     {
         try
