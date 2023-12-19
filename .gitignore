@@ -1,2 +1,51 @@
 .vs/ApiTest/FileContentIndex/2f97ef6d-c329-48a3-81be-bb2deb2a4b8a.vsidx
 .vs/ApiTest/FileContentIndex/f9905847-757a-4d3f-903e-4db97c8fc5f8.vsidx
+
+
+# Ignorar archivos de configuración de la solución Visual Studio
+.vs/
+
+# Ignorar archivos de usuario de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorar carpetas de compilación
+**/bin/
+**/obj/
+**/out/
+
+# Ignorar archivos de compilación y otros artefactos
+*.dll
+*.exe
+*.pdb
+*.cache
+*.csproj.csdat
+*.dbmdl
+*.jfm
+*.log
+*.tmp
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trx
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.diff
+*.patch
+*.scc
+
+# Ignorar la carpeta de paquetes NuGet
+packages/
+
+# Ignorar archivos de publicación ASP.NET
+**/wwwroot/
+**/aspnet_client/
+
+# Ignorar archivos de base de datos local SQL Server
+*.mdf
+*.ldf
