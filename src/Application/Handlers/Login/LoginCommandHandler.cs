@@ -42,7 +42,7 @@ public class LoginCommandHandler : IRequestHandler<LoginCommand, LoginResult>
         var tokenDescriptor = new SecurityTokenDescriptor
         {
             Subject = claims,
-            Expires = DateTime.UtcNow.AddMinutes(5),
+            Expires = DateTime.UtcNow.AddMinutes(15), //Tiempo Logueo
             SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(keyBytes), SecurityAlgorithms.HmacSha256Signature),
         };
         var tokenHandler = new JwtSecurityTokenHandler();

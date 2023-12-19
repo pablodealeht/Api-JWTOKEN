@@ -9,7 +9,7 @@ public static class UsuariosDataSeeder
     {
         var usuarios = new List<Usuario>()
         {
-            new("a@a.com","1234", 1)
+            new("a@a.com","1234", 1, Perfil.Administrador)
            
         };
 

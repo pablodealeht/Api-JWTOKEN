@@ -22,13 +22,6 @@ public class PersonalController : ControllerBase
         _mediator = mediator;
     }
 
-    //[HttpPost]
-    //public async Task<IActionResult> RegisterPersonal([FromBody] CreatePersonalCommand command)
-    //{
-    //    return Created("", await _mediator.Send(command));
-    //}
-
-
     [HttpPost]
     public async Task<ActionResult<PersonalDto>> RegisterPersonal(CreatePersonalCommand command,
     CancellationToken cancellationToken)
@@ -50,5 +43,4 @@ public class PersonalController : ControllerBase
 
         return Ok(resultado);
     }
-
 }

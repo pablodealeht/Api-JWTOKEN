@@ -13,13 +13,6 @@ var secretKey = builder.Configuration.GetSection("settings").GetSection("secretK
 var keyBytes = Encoding.UTF8.GetBytes(secretKey);
 builder.Services.AddCors(o =>
     o.AddPolicy("MyPolicy", policyBuilder => { policyBuilder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader(); }));
-//builder.Services.AddCors(o => o.AddPolicy(name: "FrontendAngular",
-//    policy =>
-//    {
-//        policy.WithOrigins("https://http://localhost:4200/").AllowAnyMethod().AllowAnyHeader();
-//    }
-
-//    ));
 
 //login
 builder.Services.AddAuthentication(config =>
