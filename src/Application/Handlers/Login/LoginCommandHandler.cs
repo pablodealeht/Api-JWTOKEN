@@ -17,6 +17,7 @@ public class LoginCommandHandler : IRequestHandler<LoginCommand, LoginResult>
     private readonly IConfiguration _config;
     private readonly ILogger<LoginCommandHandler> _logger;
     private readonly IMapper _mapper;
+
     public LoginCommandHandler(IApplicationDbContext context, IConfiguration config,IMapper mapper,
         ILogger<LoginCommandHandler> logger)
     {
@@ -30,7 +31,7 @@ public class LoginCommandHandler : IRequestHandler<LoginCommand, LoginResult>
     public async Task<LoginResult> Handle(LoginCommand request, CancellationToken cancellationToken)
     {
         var usuarioValidado = await _context.Usuarios
-            .FirstOrDefaultAsync(x => request.User == x.User, cancellationToken);
+            .FirstOrDefaultAsync(x => request.User == x.User && request.Password == x.Password, cancellationToken);
 
         if (usuarioValidado != null)
         {

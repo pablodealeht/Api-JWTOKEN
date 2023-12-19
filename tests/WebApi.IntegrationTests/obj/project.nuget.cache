@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ip7zDfaPAjGrXyd4dApOuG6bppjwmeh7lOHFwW+P/NshRtAgrn6zJA7i0H20PGlUd8MyL/fgCI/RQtZZxeJFlA==",
+  "dgSpecHash": "zrzglJLnRRhYfVeDYNY8Q/A7WIGGlAc/zt35Wm4YY+T0/44jpGhzOj/m5gN0RZ05orpodl3O3iJ31Lkcvwk3fw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pablo\\Desktop\\Api JWTOKEN\\tests\\WebApi.IntegrationTests\\WebApi.IntegrationTests.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,10 @@
     "C:\\Users\\Pablo\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.0\\microsoft.aspnetcore.authentication.jwtbearer.7.0.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.aspnetcore.mvc.testing\\7.0.10\\microsoft.aspnetcore.mvc.testing.7.0.10.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.aspnetcore.testhost\\7.0.10\\microsoft.aspnetcore.testhost.7.0.10.nupkg.sha512",
@@ -68,6 +72,7 @@
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.21.0\\microsoft.identitymodel.protocols.6.21.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.21.0\\microsoft.identitymodel.protocols.openidconnect.6.21.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.net.test.sdk\\17.7.1\\microsoft.net.test.sdk.17.7.1.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
